@@ -13,7 +13,7 @@ input {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-        input:focus {
+    input:focus {
             border: thin solid #32cd32;
             border-bottom: solid medium #32cd32;
             background-color:#fff;
