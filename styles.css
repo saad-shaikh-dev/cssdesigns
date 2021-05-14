@@ -18,10 +18,6 @@ input {
             border-bottom: solid medium #32cd32;
             background-color:#fff;
         }
-        input:valid{
-                background-color:#fff;
-                border: #fafafa;
-}
 label {
         color: #999;
         position: absolute;
@@ -41,7 +37,7 @@ input:focus ~ label, input:valid ~ label {
 // end text input field
 
 // css for button
-button{
+.button{
     display:inline-block;
     border: solid medium #32cd32;
     color:#00b300;
@@ -52,7 +48,7 @@ button{
     margin:2.5px 2.5px 2.5px 2.5px;
     text-align:center;
 }
-button:hover{
+.button:hover{
     color:#fff;
     background-color:#00b300;
     transition-duration:.5s;
