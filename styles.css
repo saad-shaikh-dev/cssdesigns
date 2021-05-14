@@ -1,3 +1,5 @@
+
+// css for text input field
 .text-field {
         position: relative;
         margin: 10px 2.5px 20px 2.5px;
@@ -13,12 +15,17 @@ input {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-
-    input:focus {
+        input:focus {
             border: thin solid #32cd32;
             border-bottom: solid medium #32cd32;
             background-color:#fff;
         }
+        input:valid{
+                background-color:#fff;
+                border: #fafafa;
+
+}
+                
 
 label {
         color: #999;
@@ -37,3 +44,4 @@ input:focus ~ label, input:valid ~ label {
         background-color:#fff;
         padding:0 5px 0 5px;
     }
+// end text input field
