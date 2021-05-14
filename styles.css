@@ -1,10 +1,8 @@
-
 // css for text input field
 .text-field {
         position: relative;
         margin: 10px 2.5px 20px 2.5px;
     }
-
 input {
         display: inline-block;
         border: thin solid #fafafa;
@@ -23,10 +21,7 @@ input {
         input:valid{
                 background-color:#fff;
                 border: #fafafa;
-
 }
-                
-
 label {
         color: #999;
         position: absolute;
@@ -35,7 +30,6 @@ label {
         top: 10px;
         transition: 0.2s;
     }
-
 input:focus ~ label, input:valid ~ label {
         top: -10px;
         left: 15px;
@@ -45,3 +39,22 @@ input:focus ~ label, input:valid ~ label {
         padding:0 5px 0 5px;
     }
 // end text input field
+
+// css for button
+button{
+    display:inline-block;
+    border: solid medium #32cd32;
+    color:#00b300;
+    background-color:#fff;
+    min-width:90px;
+    padding:2.5px 5px 2.5px 5px;
+    border-radius:5px;
+    margin:2.5px 2.5px 2.5px 2.5px;
+    text-align:center;
+}
+button:hover{
+    color:#fff;
+    background-color:#00b300;
+    transition-duration:.5s;
+    text-decoration:none;
+}
